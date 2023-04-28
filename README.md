@@ -16,13 +16,13 @@ Deposit type: Bookings made without a deposit have higher cancellation rates.
 Hotel type: Resort hotels have higher cancellation rates compared to city hotels.
 I also found that certain features, such as the number of adults and children in a booking, the room type, and the total cost of the booking, are significant predictors of whether a booking is likely to be canceled or not.
 
-##Prediction
+## Prediction
 To build a predictive model, I split the dataset into training and testing sets and standardized the features using StandardScaler. I also used Principal Component Analysis (PCA) to reduce the dimensionality of the dataset.
 
 I trained a logistic regression model on the training set and tuned its hyperparameters using GridSearchCV to achieve higher accuracy. I then evaluated the model on the testing set and achieved an accuracy of 98.06%.
 
-Conclusion
+## Conclusion
 My analysis shows that certain factors, such as lead time, market segment, deposit type, and hotel type, contribute to higher cancellation rates. I also built a predictive model that can predict whether a booking is likely to be canceled or not. This model can be used by hotels to take proactive measures to reduce cancellations and improve their revenue generation.
 
-References
+## References
 Hotel Booking Demand dataset from Kaggle: https://www.kaggle.com/jessemostipak/hotel-booking-demand
